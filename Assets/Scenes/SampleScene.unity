@@ -155,6 +155,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e4173a844553694bb68765cdd7ffb25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAge: 20
+  playerName: Silo
+  message: "\xA1Hola mundo!"
+  isGameOver: 0
 --- !u!65 &113054381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -795,7 +799,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 6.46, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1125,6 +1129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 651976e288e62694bba21ae0debc6a0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wheels: 5
 --- !u!4 &1369976843
 Transform:
   m_ObjectHideFlags: 0
@@ -1762,6 +1767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 651976e288e62694bba21ae0debc6a0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wheels: 2
 --- !u!4 &1657522789
 Transform:
   m_ObjectHideFlags: 0
@@ -1809,6 +1815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 651976e288e62694bba21ae0debc6a0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wheels: 4
 --- !u!4 &1995173361
 Transform:
   m_ObjectHideFlags: 0
