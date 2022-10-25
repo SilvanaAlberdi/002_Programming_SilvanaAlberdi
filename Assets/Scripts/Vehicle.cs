@@ -9,6 +9,8 @@ public class Vehicle : MonoBehaviour
     [SerializeField] private int wheels = 4;
     [SerializeField] string name = "Car";
     */
+    public bool isOn = true;
+    public float gasolina;
 
     
 
@@ -22,7 +24,10 @@ public class Vehicle : MonoBehaviour
         // Method 2
         Debug.Log(string.Format("El vehículo {0} tiene {1} ruedas", name, wheels));
         */
-
+        if (isOn && gasolina < 10)
+        {
+            Debug.Log($"A {name} le queda poca gasolina");
+        }
         
     }
 

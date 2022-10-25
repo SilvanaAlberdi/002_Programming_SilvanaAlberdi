@@ -29,7 +29,7 @@ public class MyFirstScript : MonoBehaviour
         Debug.Log(message);
         Debug.Log(string.Format("Hola {0}, tienes {1} puntos", playerName, points));
         */
-
+        
         Debug.Log(x + y);
         Debug.Log(x - y);
         Debug.Log(x * y);
